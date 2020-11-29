@@ -1,0 +1,69 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:800);
+.container {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px 10px;
+}
+.container * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container .row .col .features li .ion-checkmark{
+    color: black;
+}
+.container .title {
+  position: relative;
+  top: 0;
+  font-weight: 800;
+  padding: 5px 15px;
+  margin: 0 auto;
+  margin: 0;
+  display: inline-block;
+  background-color: #222f3d;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.container .features {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style:  none;
+  font-size: 0.8em;
+}
+.container .features li {
+  border-top: 1px solid #d2d7e2;
+  padding: 10px 5%;
+  font-weight: bold;
+}
+.container .features li:nth-child(even) {
+  background: rgba(0, 0, 0, 0.08);
+}
+.container .features i {
+  margin-right: 8px;
+  opacity: 0.4;
+}
+.container  .title{
+  color: #ffffff;
+}
+.container .row .col .features li {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+@media only screen and (max-width: 767px) {
+  .container .plan {
+    width: 50%;
+  }
+  .container .features {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .container {
+    width: 100%;
+  }
+}
